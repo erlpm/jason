@@ -18,7 +18,7 @@ ERLANG_MK_FILENAME := $(realpath $(lastword $(MAKEFILE_LIST)))
 export ERLANG_MK_FILENAME
 
 ERLANG_MK_VERSION = 2018.06.21-87-g57afa89
-ERLANG_MK_WITHOUT = 
+ERLANG_MK_WITHOUT =
 
 # Make 3.81 and 3.82 are deprecated.
 
@@ -3259,9 +3259,9 @@ pkg_rbeacon_commit = master
 PACKAGES += rebar
 pkg_rebar_name = rebar
 pkg_rebar_description = Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases.
-pkg_rebar_homepage = http://www.rebar3.org
+pkg_rebar_homepage = http://www.erl.pm
 pkg_rebar_fetch = git
-pkg_rebar_repo = https://github.com/rebar/rebar3
+pkg_rebar_repo = https://github.com/erlpm/epm
 pkg_rebar_commit = master
 
 PACKAGES += rebus
